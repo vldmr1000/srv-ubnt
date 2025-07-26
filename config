@@ -6,4 +6,4 @@ Host srv-ubnt
         IdentitiesOnly yes
         AddKeysToAgent yes
         ServerAliveInterval 60
-        ServerAliveCountMax 1300
+        ServerAliveCountMax 1200
