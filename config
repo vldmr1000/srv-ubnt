@@ -1,0 +1,9 @@
+Host srv-ubnt
+        StrictHostKeyChecking no
+        User golg0fa
+        ForwardAgent yes
+        IdentityFile C:\Users\g0lgofa\.ssh\id_ed25519
+        IdentitiesOnly yes
+        AddKeysToAgent yes
+        ServerAliveInterval 60
+        ServerAliveCountMax 1300
