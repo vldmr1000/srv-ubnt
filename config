@@ -7,3 +7,13 @@ Host srv-ubnt
         AddKeysToAgent yes
         ServerAliveInterval 60
         ServerAliveCountMax 1200
+Host srv-pl
+        StrictHostKeyChecking no
+        User golg0fa
+	HostName 212.115.110.215
+        ForwardAgent yes
+        IdentityFile C:\Users\g0lgofa\.ssh\id_ed25519
+        IdentitiesOnly yes
+        AddKeysToAgent yes
+        ServerAliveInterval 60
+        ServerAliveCountMax 1200

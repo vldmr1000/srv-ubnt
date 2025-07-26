@@ -1,0 +1,4 @@
+chown -R $USER:$USER ~/.ssh
+chmod 700 ~/.ssh
+chmod 644 ~/.ssh/*
+chmod 600 ~/.ssh/id_* ~/.ssh/authorized_keys
