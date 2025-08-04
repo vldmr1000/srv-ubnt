@@ -1,0 +1,4 @@
+активация хоста
+sudo a2ensite example.com	
+деактивация хоста
+sudo a2dissite example.com
